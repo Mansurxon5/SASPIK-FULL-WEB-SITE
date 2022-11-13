@@ -27,6 +27,11 @@ nav {
     }
 }
 
+.keep::selection, a::selection, h1::selection, .logos::selection, .h1::selection, .pech::selection,  h2::selection, .this-text::selection, .take::selection, li::selection, button::selection, .privacy::selection  {
+    background-color: rgb(0, 39, 129);
+        color: rgb(95, 246, 163);
+}
+
 .btn {
     .button1 {
         background: linear-gradient(108deg, #FF6155 88%, #F6F6F5 12%);
