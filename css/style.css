@@ -3,6 +3,10 @@
 nav .menu .time {
   display: none;
 }
+nav .form i {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
 nav .bars {
   display: none;
 }
@@ -24,6 +28,9 @@ nav .bars {
   color: rgb(95, 246, 163);
 }
 
+.btn {
+  gap: 50px;
+}
 .btn .button1 {
   background: linear-gradient(108deg, #FF6155 88%, #F6F6F5 12%);
   -webkit-transition: all 0.3s linear;
@@ -64,6 +71,14 @@ nav .bars {
 
 .email-box {
   position: relative;
+  width: 100%;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: calc(50% - 295px);
 }
 .email-box .email {
   border-radius: 10px 0 0 10px;
@@ -84,6 +99,9 @@ nav .bars {
   }
   .boxxing .logos {
     width: 50%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
   .boxxing .menu {
     width: 100% !important;
@@ -147,6 +165,9 @@ nav .bars {
   }
   .boxxing .form {
     width: 50%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   .boxxing header {
     -webkit-box-orient: vertical;
@@ -175,8 +196,10 @@ nav .bars {
     min-height: 25vh;
   }
   .braus {
+    padding: 10px;
     width: 100% !important;
     min-height: 40vh !important;
+    gap: 50px;
   }
   .cream_box {
     padding: 10px;
@@ -264,7 +287,7 @@ nav .bars {
     text-align: start;
   }
   .news .email-box {
-    width: 100%;
+    width: 100% !important;
   }
   .news .email-box .email {
     width: 250px;

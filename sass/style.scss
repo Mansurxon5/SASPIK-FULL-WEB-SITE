@@ -9,6 +9,11 @@ nav {
         }
 
     }
+    .form {
+        i {
+            transition: all .2s linear;
+        }
+    }
 
     .bars {
         display: none;
@@ -33,6 +38,7 @@ nav {
 }
 
 .btn {
+    gap: 50px;
     .button1 {
         background: linear-gradient(108deg, #FF6155 88%, #F6F6F5 12%);
         transition: all .3s linear;
@@ -76,6 +82,11 @@ nav {
 
 .email-box {
     position: relative;
+    width: 100%;
+    justify-content: center !important; 
+    align-items: center;
+    padding-left: calc(50% - 295px);
+
     .email {
         border-radius: 10px 0 0 10px;
     }
@@ -97,6 +108,7 @@ nav {
 
         .logos {
             width: 50%;
+            justify-content: start;
         }
 
         .menu {
@@ -151,6 +163,7 @@ nav {
 
         .form {
             width: 50%;
+            justify-content: space-evenly;
         }
 
         header {
@@ -186,9 +199,11 @@ nav {
     }
 
     .braus {
+        padding: 10px;
         width: 100% !important;
         min-height: 40vh !important;
         // flex-direction: column   ;
+        gap: 50px;
     }
     .cream_box {
         padding: 10px;
@@ -271,7 +286,7 @@ nav {
             text-align: start;
         }
         .email-box {
-            width: 100%;
+            width: 100% !important;
             .email {
                 width: 250px;
                 padding: 0 20px;
